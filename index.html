@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css"> <!-- Link CSS -->
+  <title>MCQ Test</title>
+</head>
+<body>
+  <!-- Login Section -->
+  <div id="login-container" class="login-container">
+    <h2>Login</h2>
+    <form id="login-form">
+      <input type="text" id="username" placeholder="Username" required>
+      <input type="password" id="password" placeholder="Password" required>
+      <button type="submit">Login</button>
+    </form>
+  </div>
+
+  <!-- Update Profile Section -->
+  <div id="profile-container" class="profile-container" style="display: none;">
+    <h2>Update Profile</h2>
+    <form id="update-profile-form">
+      <input type="text" id="name" placeholder="Full Name" required>
+      <input type="email" id="email" placeholder="Email" required>
+      <input type="password" id="current-password" placeholder="Current Password" required>
+      <input type="password" id="new-password" placeholder="New Password">
+      <button type="submit" id="update-button">Update</button>
+    </form>
+    <button id="next-button" style="display: none;">Go to MCQs</button>
+  </div>
+
+  <!-- MCQ Section -->
+  <div id="mcq-container" class="mcq-container" style="display: none;">
+    <div id="timer" class="timer"></div> <!-- Timer -->
+    <h2>History of India MCQs</h2>
+    <form id="mcq-form">
+      <div id="question-container" class="question-container">
+        <!-- Questions will be dynamically added here -->
+      </div>
+      <button type="button" id="next-button-mcq" style="display: none;">Next</button>
+      <button type="submit" id="submit-button" style="display: none;">Submit</button>
+    </form>
+  </div>
+
+  <!-- Logout Button -->
+  <div id="logout-container" class="logout-container" style="display: none;">
+    <button id="logout-button">Logout</button>
+  </div>
+
+  <script src="script.js"></script> <!-- JavaScript -->
+</body>
+</html>

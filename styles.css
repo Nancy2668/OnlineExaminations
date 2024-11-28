@@ -1,0 +1,46 @@
+/* General Styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, navy, grey);
+  color: #fff;
+  text-align: center;
+}
+
+.login-container, .profile-container, .mcq-container {
+  margin: auto;
+  padding: 20px;
+  width: 80%;
+  max-width: 600px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+input, button {
+  width: 90%;
+  margin: 10px auto;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+}
+
+button {
+  background: navy;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background: darkblue;
+}
+
+/* Timer Styles */
+.timer {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  background: rgba(0, 0
