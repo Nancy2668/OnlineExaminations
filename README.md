@@ -36,7 +36,7 @@ The JavaScript file that handles the dynamic behavior of the application.
 
 ## How to Run
 1. Clone the repository:
-  git clone https://github.com/Nancy2668/online-exam-system.git
+  git clone https://github.com/Nancy2668/OnlineExaminations.git
    cd online-exam-system
 2.Open index.html in any modern web browser
 3.Ensure supporting files (style.css, script.js) are in the same directory.
